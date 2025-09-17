@@ -1,0 +1,24 @@
+body {
+    background-color: #333333;
+}
+
+#blok {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#linkacz {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
