@@ -3,14 +3,16 @@ body {
 }
 
 #blok {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
     background-color: #333333;
     color: white;
     text-align: center;
     border: 1px solid white;
     border-radius: 20px;
+    box-shadow: 3px 3px 10px white;
+    transition-duration: 0.2s;
 }
 
 #linkacz {
@@ -21,4 +23,36 @@ body {
     margin: auto;
     margin-bottom: 20px;
     border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+
+#linkacz:hover {
+cursor: pointer;
+width:60%;
+
+transition-duration: 0.5s;
+
+box-shadow: 2px 2px 4px red;
+
+}
+
+#profilephoto {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 360px;
+    transition-duration: 0.5s;
+}
+
+#profilephoto:hover {
+    width: 300px;
+    height: 300px;
+    transition-duration: 0.5s;
+}
+
+#blok:hover {
+    background-image: linear-gradient(36deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 20%, rgba(253, 235, 42, 1) 40%, rgba(62, 253, 52, 1) 60%, rgba(61, 178, 213, 1) 80%, rgba(112, 69, 252, 1) 100%);
+    transition-duration: 2s;
 }
